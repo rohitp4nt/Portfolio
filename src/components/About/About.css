@@ -1,0 +1,75 @@
+
+.main{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden; 
+    background-color: #1D1F21;
+   
+}
+
+.main>div>h1{
+    color: #BCBCBC;
+font-size: 3.5rem;
+font-weight: bold;
+margin-left: 42%;
+margin-top: 3rem;
+position: relative;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.main .skills h1 {
+    margin-left: 45%;
+
+  }
+
+.skillsimg{
+    display: flex;
+    gap: 0.5rem;
+   
+}
+.skillsimg>img{
+    height: 6rem;
+    
+}
+.aboutpara{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 3rem;
+    position: relative;
+}
+.educationpara{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding-right: 2rem;
+    position: relative;
+    
+}
+/* .slidingText2{
+    position: absolute;
+    font-size: 50vh;
+    bottom: .5rem;
+    top: 2rem;
+    width: 50%;
+    color: #3C3D3F;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+   
+} */
+
+.education{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.skillsimg>p{
+    color: white;
+}

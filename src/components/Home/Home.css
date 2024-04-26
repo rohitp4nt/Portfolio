@@ -1,0 +1,82 @@
+.hero {
+    height: 32rem;
+    width: 100%;
+    background-color: #1D1F21;
+    position: relative; /* Add relative positioning to the hero container */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.imageContainer {
+    position: absolute;
+    top: 4rem;
+    right: 8rem;
+}
+
+.imageContainer > img {
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative; /* Add relative positioning to the wrapper */
+}
+
+.textContainer {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 13rem;
+    left: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slidingText {
+    position: absolute;
+    font-size: 50vh;
+    bottom: .5rem;
+    width: 50%;
+    color: #3C3D3F;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button1{
+    height: 3rem;
+    width: 7rem;
+    background-color: #eb6624;
+    font-size: 18px;
+    border-radius: 20%;
+    
+    
+}
+.button1:hover{
+    transition: 0.3s ease;
+    opacity: 0.7;
+}
+.button2{
+    height: 3rem;
+    width: 7rem;
+    background-color: gray;
+    font-size: 18px;
+    border-radius: 20%;
+}
+.button2:hover{
+    transition: 0.3s ease;
+    opacity: 0.7;
+}
